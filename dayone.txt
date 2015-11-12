@@ -52,5 +52,8 @@ Undo/Redo
 	u: undo last command
 	Ctrl+r: redo last command
 
+gg=g: reformats document to remove hard tabs, make easier to read, depends on vim configuration
+
+
 This is sample text to use.
 This is more sameple stuff that we can use. 
