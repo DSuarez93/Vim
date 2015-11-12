@@ -39,7 +39,7 @@ $: go to the end of the line, still in normal mode
 ^: go to the beginning of the line, stops at white space
 0: go to the beginning of the line, ignores white space
 %: goes to the next { or } character when cursor is over one
-
+:# : go to line number
 
 Deleting
 	dd: Entire line
@@ -52,8 +52,18 @@ Undo/Redo
 	u: undo last command
 	Ctrl+r: redo last command
 
+Yanking
+	yy: "Yanks" entire line
+	p: push, or paste, yanked line
+	
 gg=g: reformats document to remove hard tabs, make easier to read, depends on vim configuration
 
+Saving
+	:w - save file
+	:wq or :x or ZZ - save and quit
+	:q! - force quit (without saving)
+	edit "filename" - open new buffer of different file
+	:ls - displays active buffers
 
 This is sample text to use.
 This is more sameple stuff that we can use. 
