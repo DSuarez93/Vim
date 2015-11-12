@@ -1,11 +1,24 @@
 Initial file of Vim - 11/11/2015
 
 ~/.vimrc : Commands and scripts activate when Vim starts, such as editing the status bar
+Modes other than Normal mode will be indicated within here
 
 5 Modes within Vim:
 Normal: Press Escape
+	use hjkl to move cursor around, all keys are on home row to emphasize typing speed
+
+
 Visual: Press v
 Insert: Press i
+	or press a to append to the document, moving the cursor one space after it was in normal mode.
+	or press o to open, making a new line and move the cursor to the beginning of the new line.
+	or press I to start at the beginning of the line.
+	or press O to make a new line above instead of below the cursor.
+	or press A to go to the end of the line.
+
+
 Command: Press :
+	or press / for other expressions.
 	Quit: :q
+
 Shell: Press !
