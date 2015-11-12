@@ -1,5 +1,7 @@
 Initial file of Vim - 11/11/2015
 
+The key to using Vim is muscle memory. Get used to movement and shortcuts.
+
 ~/.vimrc : Commands and scripts activate when Vim starts, such as editing the status bar
 Modes other than Normal mode will be indicated within here
 
@@ -33,6 +35,22 @@ b: beginning of the previous word
 e: end of the word
 w: next word
 #b or #e: repreat the command a # of times
+$: go to the end of the line, still in normal mode
+^: go to the beginning of the line, stops at white space
+0: go to the beginning of the line, ignores white space
+%: goes to the next { or } character when cursor is over one
+
+
+Deleting
+	dd: Entire line
+	#dd: # lines including cursor and below
+	dw: Current word
+	d$: To the end of the line
+	x: remove current character under cursor
+
+Undo/Redo
+	u: undo last command
+	Ctrl+r: redo last command
 
 This is sample text to use.
-This is more sameple stuff toy can use.
+This is more sameple stuff that we can use. 
