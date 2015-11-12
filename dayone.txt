@@ -1,1 +1,11 @@
 Initial file of Vim - 11/11/2015
+
+~/.vimrc : Commands and scripts activate when Vim starts, such as editing the status bar
+
+5 Modes within Vim:
+Normal: Press Escape
+Visual: Press v
+Insert: Press i
+Command: Press :
+	Quit: :q
+Shell: Press !
