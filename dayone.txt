@@ -6,7 +6,7 @@ Modes other than Normal mode will be indicated within here
 5 Modes within Vim:
 Normal: Press Escape
 	use hjkl to move cursor around, all keys are on home row to emphasize typing speed
-
+	Press r and a character to replace the character currently under the cursor.
 
 Visual: Press v
 Insert: Press i
@@ -16,9 +16,23 @@ Insert: Press i
 	or press O to make a new line above instead of below the cursor.
 	or press A to go to the end of the line.
 
+Replace: press R to edit directly overwrite the text instead of appending.
+
 
 Command: Press :
 	or press / for other expressions.
 	Quit: :q
 
 Shell: Press !
+
+Movement in terms of words.
+word: string of alphanumeric & underscores
+WORD: counts for other symbols and characters
+
+b: beginning of the previous word
+e: end of the word
+w: next word
+#b or #e: repreat the command a # of times
+
+This is sample text to use.
+This is more sameple stuff toy can use.
